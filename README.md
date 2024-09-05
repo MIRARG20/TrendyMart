@@ -1,6 +1,6 @@
 # TrendyMart
 
-![TrendyMart Screenshot](TrendyMart/screenshot-homepage.png)
+![TrendyMart Screenshot](photo.png)
 
 ## Project Overview
 
