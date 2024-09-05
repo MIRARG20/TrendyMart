@@ -1,5 +1,7 @@
 # TrendyMart
 
+![TrendyMart Screenshot](TrendyMart/screenshot-homepage.png)
+
 ## Project Overview
 
 TrendyMart is a solo project developed as an e-commerce website where users can create accounts, browse and purchase products, and complete transactions using Visa, MasterCard, or PayPal. The platform supports account creation, shopping cart functionality, order total calculations, and shipping to user addresses.
