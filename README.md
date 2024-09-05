@@ -25,7 +25,7 @@ The application is built on a Flask server with a MySQL database backend. It is 
 
 ## Getting Started
 
-To get started with the project, follow these steps:
+Follow these steps to get started with the project:
 
 1. **Clone the repository:**
    ```bash
@@ -37,11 +37,9 @@ To get started with the project, follow these steps:
    pip install -r requirements.txt
    ```
 3. **Set up the database:**
-   - Create a MySQL database and update the database configuration in `config.py`.
    ```python
    DATABASE_URI = 'mysql+pymysql://username:password@localhost/trendymart'
    ```
-   - Run migrations to set up the tables.
    ```bash
    flask db upgrade
    ```
@@ -50,7 +48,7 @@ To get started with the project, follow these steps:
    flask run
    ```
 5. **Access the application:**
-   Open your browser and navigate to `http://localhost:5000`.
+   Navigate to `http://localhost:5000`.
 
 
 ## License
