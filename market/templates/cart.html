@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>All Products - TrendyMart</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Cart - TrendyMart</title>
+    <link rel="stylesheet" href="static/css/main.css">
 
 </head>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,58 +20,104 @@ family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,
         <div class="container">
             <div class="navbar">
                 <div class="logo">
-                    <a href="index.html"><img src="images/logo.png" width="125px"></a>
+                    <a href="home"><img src="static/images/logo.png" width="125px"></a>
                 </div>
                 <nav>
                     <ul id="MenuItems">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="products.html">Products</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <!-- <li><a href="">Contact</a></li> -->
-                        <li><a href="acoount.html">Account</a></li>
+                        <li><a href="home">Home</a></li>
+                        <li><a href="products">Products</a></li>
+                        <li><a href="about">About</a></li>
+                        <li><a href="account">Account</a></li>
                     </ul>
                 </nav>
-                <a href="cart.html"><img src="images/cart.png" width="70px" height="70px"></a>
-                <img src="images/menu.png" class="menu-icon " onclick="menutoggle()">
+                <a href="cart"><img src="static/images/cart.png" width="70px" height="70px"></a>
+                <img src="static/images/menu.png" class="menu-icon " onclick="menutoggle()">
             </div>
         </div>
 
     </div>
-    <!------------------------ account page----- -->
-    <div class="account-page">
-        <div class="container">
-            <div class="row">
-                <div class="col-2">
-                    <img src="images/Header2.png" width="100%">
-                </div>
-                <div class="col-2">
-                    <div class="form-container">
-                        <div class="form-btn">
-                            <span onclick="login()">Login</span>
-                            <span onclick="register()">Register</span>
-                            <hr id="Indicator">
-                        </div>
-                        <form id="LoginForm">
-                            <input type="text" placeholder="Username">
-                            <input type="password" placeholder="Password">
-                            <button type="submit" class="btn">Login</button>
-                            <a href="">Forget Password</a>
-                        </form>
-                        <form id="RegForm">
-                            <input type="text" placeholder="Username">
-                            <input type="email" placeholder="Email">
-                            <input type="password" placeholder="Password">
-                            <button type="submit" class="btn">Register</button>
-                        </form>
 
+<!----------------- cart items details------------->
+<div class="small-container cart-page">
+    <table>
+        <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="static/images/cat5.jpg">
+                    <div>
+                        <p>Red Printed Tshirt</p>
+                        <small> Price: $50.00</small>
+                        <br>
+                        <a href="">Remove</a>
                     </div>
                 </div>
-            </div>
-        </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>$50.00</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="static/images/cat1.jpg">
+                    <div>
+                        <p>Red Printed Tshirt</p>
+                        <small> Price: $70.00</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>$70.00</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="static/images/cat3.jpg">
+                    <div>
+                        <p>Red Printed Tshirt</p>
+                        <small> Price: $80.00</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>$80.00</td>
+        </tr>
+    </table>
+
+    <div class="total-price">
+        <table>
+            <tr>
+                <td>Subtotal</td>
+                <td>$200.00</td>
+            </tr>
+            <tr>
+                <td>Tax</td>
+                <td>$30.00</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td>$230.00</td>
+            </tr>
+        </table>
     </div>
 
 
+</div>
 
+
+
+
+
+
+    
 
     <!-- footer -->
     <div class="footer">
@@ -83,10 +129,10 @@ family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,
                     <div class="app-logo">
                         <img src="images/2.png">
                         <img src="images/5.png">
-                    </div>
-                </div> -->
+                    </div> -->
+                </div>
                 <div class="footer-col-2">
-                    <a href="index.html"><img src="images/logo.png" alt=""></a>
+                    <a href="index.html"><img src="istatic/mages/logo.png" alt=""></a>
                     <p>Connect With Us Stay up-to-date with the latest trends,
                         exclusive deals, and new arrivals by following us on
                         social media.</p>
@@ -133,25 +179,8 @@ family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,
 
     </script>
 
-        <!-- js for toggle form -->
 
-        <script>
-            var LoginForm = document.getElementById("LoginForm");
-            var RegForm =document.getElementById("RegForm");
-            var Indicator = document.getElementById("Indicator")
-            function register(){
-                RegForm.style.transform = "translateX(0px)";
-                LoginForm.style.transform = "translateX(0px)";
-                Indicator.style.transform = "translateX(100px)";
-            }
 
-            function login(){
-                RegForm.style.transform = "translateX(300px)";
-                LoginForm.style.transform = "translateX(300px)";
-                Indicator.style.transform = "translateX(0px)";
-            }
-    
-        </script>
 </body>
 
 </html>
