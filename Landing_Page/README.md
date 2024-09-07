@@ -2,20 +2,16 @@
 
 # TrendyMart
 
-<video width="320" height="240" controls>
-  <source src="TrendyMart\Landing_Page\video.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
-
-![TrendyMart Screenshot](screenshoot1.png)
+![TrendyMart Screenshot](screenshot/screenshot1.png)
+![TrendyMart Screenshot](screenshot/screenshot4.png)
 
 ## Project Overview
 
 TrendyMart is a solo project developed as an e-commerce website where users can create accounts, browse and purchase products, and complete transactions using Visa, MasterCard, or PayPal. The platform supports account creation, shopping cart functionality, order total calculations, and shipping to user addresses.
-![TrendyMart Screenshot](screenshoot2.png)
+![TrendyMart Screenshot](screenshot/screenshot2.png)
 
 ## Team
-![TrendyMart Screenshot](screenshoot5.png)
+![TrendyMart Screenshot](screenshot/screenshot5.png)
 
 This project was developed by:
 - **Amira Ragab** - [amiraragab480@gmail.com](mailto:amiraragab480@gmail.com)
