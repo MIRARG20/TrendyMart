@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrendyMart | Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="video.css">
+
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" width="125px"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="acoount.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="images/cart.png" width="70px" height="70px"></a>
+                <img src="images/menu.png" class="menu-icon " onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Welcome to TrendyMart!</h1>
+                    <p>Discover the latest trends and find everything you need to elevate your style.</p>
+                    <a href="products.html" class="btn">Explore Now</a>
+                </div>
+                <div class="col-2">
+                    <img src="images/header1.png" alt="TrendyMart Header Image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Featured Sections -->
+    <div class="featured-section">
+        <h2 class="title">Key Features</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/feature1.png" alt="Quality Assurance">
+            </div>
+            <div class="col-4">
+                <h3>Quality Guaranteed</h3>
+                <p>We stand behind the quality of our products. Every item goes through rigorous quality checks to
+                    ensure you receive only the best.</p>
+            </div>
+            <div class="col-4">
+                <img src="images/feature2.png" alt="Easy Navigation">
+            </div>
+            <div class="col-4">
+                <h3>Intuitive Shopping Experience</h3>
+                <p>Our user-friendly interface makes browsing and purchasing easy and enjoyable. Navigate through our
+                    extensive collection with ease.</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/feature3.png" alt="Competitive Pricing">
+            </div>
+            <div class="col-4">
+                <h3>Competitive Prices</h3>
+                <p>We strive to offer unbeatable prices without compromising on quality. Our competitive pricing ensures
+                    you get value for money.</p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <!-- Video Section -->
+    <div class="video-section">
+        <h2 class="title">Meet Our Team & Learn About TrendyMart</h2>
+        <div class="video-container">
+            <iframe width="560" height="315" src="video.mp4" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="video-description">
+            <p>Watch our video to learn more about TrendyMart's mission, meet our team, and discover our key features.
+            </p>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="about-section">
+        <h2 class="title">About TrendyMart</h2>
+        <div class="row">
+            <div class="col-2">
+                <!-- <p>Founded in 2023, TrendyMart is an online retailer dedicated to bringing the latest trends right to
+                    your doorstep. We believe in offering high-quality products at affordable prices, ensuring every
+                    customer finds something they love.</p>
+                <h3>Our Mission</h3>
+                <p>We're committed to revolutionizing the way you shop for everything. We believe that style shouldn't
+                    break the bank, and that every person deserves to feel confident and beautiful.</p> -->
+                <h3>A Personal Journey to TrendyMart</h3>
+                <p>My passion for e-commerce and fashion led me to create TrendyMart. Growing up, I struggled to find
+                    affordable yet stylish clothes. This challenge sparked an idea – to bridge the gap between high-end
+                    fashion and budget-friendly options. After months of planning and development, TrendyMart was born!
+                </p>
+                <p>This project began as a portfolio assignment for <a href="https://www.holbertonschool.com/"
+                        target="_blank">Holberton School</a> but quickly evolved into a personal mission. From
+                    conceptualization to launch, it took approximately six months of dedicated work.</p>
+                <h2 class="title">Get Connected</h2>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/amira-ragab/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    <a href="https://x.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                </div>
+                <div class="col-2">
+                    <img src="images/about2.png" alt="TrendyMart Team">
+                </div>
+            </div>
+        </div>
+
+        <!-- the new About Section -->
+        <!-- <div class="about-section">
+    <h2 class="title">About Us</h2>
+    <div class="row">
+        <div class="col-2">
+            <img src="images/about.png" alt="About Us Image">
+        </div>
+        <div class="col-2">
+            <h3>A Personal Journey to TrendyMart</h3>
+            <p>My passion for e-commerce and fashion led me to create TrendyMart. Growing up, I struggled to find affordable yet stylish clothes. This challenge sparked an idea – to bridge the gap between high-end fashion and budget-friendly options. After months of planning and development, TrendyMart was born!</p>
+            <p>This project began as a portfolio assignment for <a href="https://www.holbertonschool.com/" target="_blank">Holberton School</a> but quickly evolved into a personal mission. From conceptualization to launch, it took approximately six months of dedicated work.</p>
+            <h3>Get Connected</h3>
+            <div class="social-links">
+                <a href="#" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a href="#" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                <a href="#" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-2">
+            <h3>Project Repository</h3>
+            <p>Check out the full codebase for TrendyMart on GitHub:</p>
+            <a href="#" target="_blank" class="btn">View Repository</a>
+        </div>
+    </div>
+</div> -->
+
+
+        <!-- Call to Action -->
+        <div class="offer">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-2">
+                        <p>Exclusively Available in TrendyMart</p>
+                        <h1>HUAWEI WATCH</h1>
+                        <small>HUAWEI WATCH FIT 3 Smartwatch, 1.82" AMOLED Display,
+                            Ultra-Slim Design, All Round Fitness Management,
+                            Comprehensive Health Management.
+                        </small>
+                        <br>
+                        <a href="" class="btn">Shop Now</a>
+                    </div>
+                    <div class="col-2">
+                        <img src="images/watch without bg.png" alt="Shop Now Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-2">
+                        <a href="home.html"><img src="images/logo.png" alt="TrendyMart Logo"></a>
+                        <p>Connect With Us Stay up-to-date with the latest trends,
+                            exclusive deals, and new arrivals by following us on
+                            social media.</p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Payment Methods</h3>
+                        <ul>
+                            <li>Visa</li>
+                            <li>MasterCard</li>
+                            <li>PayPal</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- JavaScript for menu toggle -->
+        <script>
+            var MenuItems = document.getElementById("MenuItems");
+            MenuItems.style.maxHeight = "0px";
+            function menutoggle() {
+                if (MenuItems.style.maxHeight == "0px") {
+                    MenuItems.style.maxHeight = "200px";
+                }
+                else {
+                    MenuItems.style.maxHeight = "0px";
+                }
+            }
+        </script>
+</body>
+
+</html>
