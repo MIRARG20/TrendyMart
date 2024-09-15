@@ -1,8 +1,8 @@
 <!-- landing page for my the portfolio project -->
 
 # TrendyMart
-![TrendyMart Screenshot](screenshot/screenshot4.png)
 ![TrendyMart Screenshot](screenshot/screenshot1.png)
+![TrendyMart Screenshot](screenshot/screenshot4.png)
 
 
 ## Project Overview
