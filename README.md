@@ -1,12 +1,17 @@
-# TrendyMart
+<!-- landing page for my the portfolio project -->
 
-![TrendyMart Screenshot](photo.png)
+# TrendyMart
+![TrendyMart Screenshot](screenshot/screenshot4.png)
+![TrendyMart Screenshot](screenshot/screenshot1.png)
+
 
 ## Project Overview
 
 TrendyMart is a solo project developed as an e-commerce website where users can create accounts, browse and purchase products, and complete transactions using Visa, MasterCard, or PayPal. The platform supports account creation, shopping cart functionality, order total calculations, and shipping to user addresses.
+![TrendyMart Screenshot](screenshot/screenshot2.png)
 
 ## Team
+![TrendyMart Screenshot](screenshot/screenshot5.png)
 
 This project was developed by:
 - **Amira Ragab** - [amiraragab480@gmail.com](mailto:amiraragab480@gmail.com)
@@ -56,7 +61,7 @@ This project is licensed under the MIT License. See below for details:
 
 MIT License
 
-Copyright (c) [2024] [Amira Ragab]
+Copyright (c) [2024] [Amira Ragab Mohamed]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
