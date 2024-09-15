@@ -1,5 +1,3 @@
-<!-- landing page for my the portfolio project -->
-
 # TrendyMart
 ![TrendyMart Screenshot](screenshot/screenshot1.png)
 ![TrendyMart Screenshot](screenshot/screenshot4.png)
@@ -27,6 +25,18 @@ This project was developed by:
 
 The application is built on a Flask server with a MySQL database backend. It is designed to handle user authentication, product management, shopping cart operations, and payment processing.
 
+
+### Payment Processing Algorithm
+
+TrendyMart implements a secure payment processing algorithm:
+
+1. User selects payment method (Visa, MasterCard, or PayPal).
+2. System generates a unique transaction ID.
+3. User enters payment details.
+4. Details are encrypted and sent to the chosen payment gateway.
+5. Gateway processes the payment and sends a confirmation.
+6. Upon successful payment, the order is marked as paid in the database.
+7. User receives a confirmation email with order details.
 
 ## Getting Started
 
