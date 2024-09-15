@@ -1,3 +1,4 @@
+# Import the Flask application instance from the market module
 from market import app
 
 

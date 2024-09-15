@@ -36,7 +36,7 @@ p{
     max-width: 1300px;
     margin: auto;
     padding-left: 25px;
-    padding-right: 25;
+    padding-right: 25px;
 }
 .row{
     display: flex;
@@ -56,6 +56,7 @@ p{
     font-size: 50px;
     line-height: 60px;
     margin: 25px 0;
+
 }
 .btn{
     display: inline-block;
@@ -213,13 +214,13 @@ small{
 .col-5 img{
     width: 100%;
     cursor: pointer;
-    filter: grayscale(100%);
+    /* filter: grayscale(100%); */
 }
 
-.col-5 img:hover{
+/* .col-5 img:hover{
     filter: grayscale(0);
 
-}
+} */
 
 
 /* footer */

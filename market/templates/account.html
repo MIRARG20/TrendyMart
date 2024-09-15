@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>account - TrendyMart</title>
     <link rel="stylesheet" href="static/css/main.css">
+    <link rel="stylesheet" href="static/css/video.css">
 
 </head>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,11 +21,11 @@ family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,
         <div class="container">
             <div class="navbar">
                 <div class="logo">
-                    <a href="home"><img src="static/images/logo.png" width="125px"></a>
+                    <a href="index"><img src="static/images/logo.png" width="125px"></a>
                 </div>
                 <nav>
                     <ul id="MenuItems">
-                        <li><a href="home">Home</a></li>
+                        <li><a href="index">Home</a></li>
                         <li><a href="products">Products</a></li>
                         <li><a href="about">About</a></li>
                         <li><a href="account">Account</a></li>
@@ -50,6 +51,7 @@ family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,
                             <span onclick="register()">Register</span>
                             <hr id="Indicator">
                         </div>
+                        <!-- Login Form -->
                         <form id="LoginForm">
                             <input type="text" placeholder="Username">
                             <input type="password" placeholder="Password">
@@ -57,15 +59,8 @@ family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,
                             <a href="">Forget Password</a>
                         </form>
 
-                        <!-- -----the original-----
-                        <form id="RegForm">
-                            <input type="text" placeholder="Username">
-                            <input type="email" placeholder="Email">
-                            <input type="password" placeholder="Password">
-                            <button type="submit" class="btn">Register</button>
-                        </form> -->
 
-
+                        <!-- Registration Form -->
                         <form method="POST" class="form-register" style="color:white" id="RegForm">
                             {{ form.hidden_tag() }}
                             {{ form.username.label() }}
@@ -82,10 +77,7 @@ family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,
 
                             {{ form.submit(class="btn btn-lg btn-block")}}
 
-                            <!-- <input type="text" placeholder="Username">
-                            <input type="email" placeholder="Email">
-                            <input type="password" placeholder="Password"> -->
-                            <!-- <button type="submit" class="btn">Register</button> -->
+
                         </form>
 
                     </div>
@@ -110,7 +102,7 @@ family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,
                     </div>
                 </div> -->
                 <div class="footer-col-2">
-                    <a href="index.html"><img src="images/logo.png" alt=""></a>
+                    <a href="index"><img src="static/images/logo.png" alt=""></a>
                     <p>Connect With Us Stay up-to-date with the latest trends,
                         exclusive deals, and new arrivals by following us on
                         social media.</p>
@@ -135,13 +127,12 @@ family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,
 
                 </div>
             </div>
-            <!-- <hr>
-            <p class="copyright">Copyright 2024</p> -->
+            <hr>
+            <p class="copyright">Copyright 2024</p>
         </div>
     </div>
 
-    <!-- js for toggle menu -->
-    <!-- /* الجزء بتاع المنيو اللي ممكن يتشال */ -->
+    <!-- JavaScript for menu toggling -->
     <script>
         var MenuItems = document.getElementById("MenuItems");
         MenuItems.style.maxHeight = "0px";
@@ -152,13 +143,10 @@ family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,
             else {
                 MenuItems.style.maxHeight = "0px";
             }
-
         }
-
     </script>
 
-    <!-- js for toggle form -->
-
+    <!-- JavaScript for form switching -->
     <script>
         var LoginForm = document.getElementById("LoginForm");
         var RegForm = document.getElementById("RegForm");

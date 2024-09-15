@@ -5,9 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About| Ecommerce website</title>
+    <!-- Link to custom CSS stylesheets -->
     <link rel="stylesheet" href="static/css/main.css">
+    <link rel="stylesheet" href="static/css/video.css">
 
 </head>
+<!-- Google Fonts integration -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?
@@ -16,35 +19,43 @@ family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <body>
+    <!-- Header section -->
     <div class="header">
         <div class="container">
             <div class="navbar">
                 <div class="logo">
-                    <a href="home"><img src="static/images/logo.png" width="125px"></a>
+                    <!-- Logo image linked to the index page -->
+                    <a href="index"><img src="static/images/logo.png" width="125px"></a>
                 </div>
                 <nav>
+                    <!-- Navigation menu -->
                     <ul id="MenuItems">
-                        <li><a href="home">Home</a></li>
+                        <li><a href="index">Home</a></li>
                         <li><a href="products">Products</a></li>
                         <li><a href="about">About</a></li>
                         <li><a href="account">Account</a></li>
                     </ul>
                 </nav>
+                <!-- Cart icon link -->
                 <a href="cart"><img src="static/images/cart.png" width="70px" height="70px"></a>
+                <!-- Menu toggle icon for mobile view -->
                 <img src="static/images/menu.png" class="menu-icon " onclick="menutoggle()">
             </div>
+
+            <!-- About content section -->
             <div class="row">
                 <div class="col-2">
                     <h1>About TrendyMart!</h1>
-                    <p>At TrendyMart, we believe in bringing the latest trends right to your doorstep. 
-                        Founded in 2023, we are so glad to offer high-quality products at affordable prices, ensuring every customer 
-                        finds something they love. With a wide range of products across various categories, we're committed to providing a 
+                    <p>At TrendyMart, we believe in bringing the latest trends right to your doorstep.
+                        Founded in 2023, we are so glad to offer high-quality products at affordable prices, ensuring
+                        every customer
+                        finds something they love. With a wide range of products across various categories, we're
+                        committed to providing a
                         seamless shopping experience that keeps our customers coming back for more..</p>
                     <h1>Our Mission</h1>
-                    <p>we're committed to revolutionizing the way you shop for everything. 
-                        We believe that style shouldn't break the bank, and that every 
+                    <p>we're committed to revolutionizing the way you shop for everything.
+                        We believe that style shouldn't break the bank, and that every
                         person deserves to feel confident and beautiful.</p>
-                    <!-- <a href="products.html" class="btn">Explore Now</a> -->
                 </div>
                 <div class="col-2">
                     <img src="static/images/about us.png">
@@ -54,85 +65,61 @@ family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,
     </div>
 
 
-    
-    <!-- testimonial -->
+
+    <!-- Testimonials section -->
     <div class="Testimonial">
         <div class="small-container">
             <h2>Our Clients Reviews</h2>
             <div class="row">
-                
+                <!-- Three testimonials with ratings and images -->
                 <div class="col-3">
                     <i class="fa fa-quote-left"></i>
-                    <p>High-Performance Laptop Elevate your productivity with our high-performance laptop. Designed for
-                        professionals and gamers alike</p>
+                    <p>The return policy was hassle-free. I appreciated the flexibility in returning items that didn't
+                        quite fit right.</p>
                     <div class="rating">
-
+                        <!-- Star rating -->
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                     </div>
-                    <img src="images/cat3.jpg">
-                    <h3>Mohamed Ragab</h3>
+                    <img src="static/images/test1.png">
+                    <h3>Emily Wilson</h3>
                 </div>
                 <div class="col-3">
                     <i class="fa fa-quote-left"></i>
-                    <p>High-Performance Laptop Elevate your productivity with our high-performance laptop. Designed for
-                        professionals and gamers alike</p>
+                    <p>I've never been so satisfied with an online purchase! The quality of the product exceeded my
+                        expectations</p>
                     <div class="rating">
-
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star-o"></i>
                     </div>
-                    <img src="images/cat1.jpg">
-                    <h3>Amira Ragab</h3>
+                    <img src="static/images/test2.png">
+                    <h3>Sarah Johnson</h3>
                 </div>
                 <div class="col-3">
                     <i class="fa fa-quote-left"></i>
-                    <p>High-Performance Laptop Elevate your productivity with our high-performance laptop. Designed for
-                        professionals and gamers alike</p>
+                    <p>This website offers such a wide selection of products at competitive prices. I'll definitely be
+                        back!</p>
                     <div class="rating">
-
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star-o"></i>
                     </div>
-                    <img src="images/cat7.jpg">
-                    <h3>mika hjk</h3>
+                    <img src="static/images/test3.png">
+                    <h3>James Thompson</h3>
                 </div>
             </div>
         </div>
     </div>
-    <!-- brands -->
-    <!-- <div class="brands">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-5">
-                    <img src="images/lacosta logo.png" alt="">
-                </div>
-                <div class="col-5">
-                    <img src="images/fila-logo.png" alt="">
-                </div>
-                <div class="col-5">
-                    <img src="images/apple logo.png" alt="">
-                </div>
-                <div class="col-5">
-                    <img src="images/huawei logo.png" alt="">
-                </div>
-                <div class="col-5">
-                    <img src="images/sony logo.png" alt="">
-                </div>
-            </div>
-        </div>
-    </div> -->
 
-    <!-- footer -->
+    <!-- footer section-->
     <div class="footer">
         <div class="container">
             <div class="row">
@@ -140,16 +127,19 @@ family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,
                     <h3>Download Our App</h3>
                     <p>Download App for Androied and ios mopile phone.</p>
                     <div class="app-logo">
-                        <img src="images/googleplay logo.png">
-                        <img src="images/appstore logo.png">
-                    </div> -->
-                </div>
+                        <img src="static/images/googleplay logo.png">
+                        <img src="static/images/appstore logo.png">
+                    </div>
+                </div> -->
+
+                <!-- Site logo and social media info -->
                 <div class="footer-col-2">
-                    <a href="index.html"><img src="images/logo.png" alt=""></a>
+                    <a href="index"><img src="static/images/logo.png" alt=""></a>
                     <p>Connect With Us Stay up-to-date with the latest trends,
                         exclusive deals, and new arrivals by following us on
                         social media.</p>
                 </div>
+                <!-- Payment methods -->
                 <div class="footer-col-3">
                     <h3>Payment Methods</h3>
                     <ul>
@@ -159,24 +149,24 @@ family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,
                     </ul>
 
                 </div>
+
+                <!-- Social media links -->
                 <div class="footer-col-4">
                     <h3>Follow us</h3>
                     <ul>
                         <li>Facebook</li>
                         <li>Twitter</li>
                         <li>Instgram</li>
-                        <!-- <li>YouTube</li> -->
                     </ul>
 
                 </div>
             </div>
-            <!-- <hr>
-            <p class="copyright">Copyright @2024</p> -->
+            <hr>
+            <p class="copyright">Copyright @2024</p>
         </div>
     </div>
 
-    <!-- js for toggle menu -->
-    <!-- /* الجزء بتاع المنيو اللي ممكن يتشال */ -->
+    <!-- JavaScript for menu toggling -->
     <script>
         var MenuItems = document.getElementById("MenuItems");
         MenuItems.style.maxHeight = "0px";

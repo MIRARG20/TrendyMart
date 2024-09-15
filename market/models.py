@@ -1,7 +1,6 @@
-
 from market import db
 
-
+# Define the User model
 class User(db.Model):
     id = db.Column(db.Integer(), primary_key=True)
     username = db.Column(db.String(length=30), nullable=False, unique=True)
@@ -9,9 +8,7 @@ class User(db.Model):
     password_hash = db.Column(db.String(length=70), nullable=False, unique=True)
     items = db.relationship('Item', backref='owend_user', lazy=True)
 
-
-
-
+# Define the Item model
 class Item(db.Model):
     id = db.Column(db.Integer(), primary_key=True)
     name = db.Column(db.String(length=30), nullable=False, unique=True)
@@ -21,6 +18,6 @@ class Item(db.Model):
     owner = db.Column(db.Integer(), db.ForeignKey('user.id'))
 
 
-
+    # String representation of the Item instance
     def __repr__(self):
         return f'Item {self.name}'
